@@ -38,6 +38,7 @@ io.on("connection", (socket) => {
   });
 });
 
+console.log('hung')
 
 server.listen(3001, () => {
   console.log("SERVER RUNNING");
